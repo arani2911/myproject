@@ -1,0 +1,678 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    overflow-x: hidden;
+}
+
+
+/* Model Code */
+
+.modalCode {
+    margin: 0px;
+    padding: 0px;
+    width: auto;
+}
+
+
+/* Updates */
+
+.updates {
+    position: relative;
+    margin: 0 auto;
+    width: 900px;
+    top: 600px;
+    height: auto;
+    background-color: #ebebe0;
+    margin-top: 20px;
+}
+
+
+/* Contact Nav */
+
+.contactnav {
+    color: white !important;
+}
+
+.email_input {
+    margin-bottom: 20px !important;
+}
+
+
+/* Contact form code */
+
+.contactposition {
+    margin: 0 auto;
+    position: relative;
+    top: 640px;
+}
+
+.contactform {
+    width: 650px;
+    height: 670px;
+}
+
+fieldset input {
+    font-size: 18px;
+    width: 70%;
+    height: 5%;
+    border: 2px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin: 8px 50px 8px 50px;
+    box-shadow: 1px 1px 2px 2px grey;
+    background-color: #FFF6D0;
+}
+
+#contactbutton {
+    font-size: 18px;
+    width: 70%;
+    height: 5%;
+    border: 2px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin: 8px 50px 8px 50px;
+    box-shadow: 1px 1px 2px 2px grey;
+}
+
+textarea {
+    font-size: 18px;
+    width: 70%;
+    height: 110px;
+    border: 2px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin: 4px 50px 4px 50px;
+    box-shadow: 1px 1px 2px 2px grey;
+    background-color: #FFF6D0;
+}
+
+select {
+    font-size: 18px;
+    width: 70%;
+    height: 5%;
+    border: 2px;
+    border-radius: 5px;
+    padding: 8px 15px 8px 15px;
+    margin: 8px 50px 8px 50px;
+    box-shadow: 1px 1px 2px 2px grey;
+    background-color: #FFF6D0;
+}
+
+.logo {
+    position: absolute;
+    width: 277.57px;
+    height: 67px;
+    left: 76px;
+    top: 10px;
+}
+
+.logo1 {
+    margin: 0 auto;
+    position: absolute;
+    width: 277.57px;
+    height: 67px;
+    top: 30px;
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.topbar {
+    position: absolute;
+    width: 1440px;
+    height: 80px;
+    left: 0px;
+    top: 0px;
+}
+
+.youtube {
+    position: absolute;
+    width: 44.41px;
+    height: 48px;
+    left: 1159px;
+    top: 14px;
+}
+
+.twitter {
+    position: absolute;
+    width: 46.85px;
+    height: 48px;
+    left: 1219px;
+    top: 14px;
+}
+
+.facebook {
+    position: absolute;
+    width: 46.85px;
+    height: 48px;
+    left: 1293.19px;
+    top: 14px;
+}
+
+.instagram {
+    position: absolute;
+    width: 46.85px;
+    height: 48px;
+    left: 1367.37px;
+    top: 14px;
+}
+
+.hpImage {
+    position: absolute;
+    width: 2300px;
+    height: 600px;
+    top: 80px;
+}
+
+.navbar {
+    top: 90px;
+    z-index: 2;
+    font-weight: 700;
+}
+
+li {
+    padding-right: 1rem;
+    padding-left: 1rem;
+    color: silver;
+    font-size: large;
+}
+
+.heroheader {
+    position: absolute;
+    z-index: 1;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 82px;
+    text-transform: uppercase;
+    width: 827.17px;
+    height: 409px;
+    left: 76px;
+    top: 238px;
+    color: #ffffff !important;
+}
+
+spam {
+    position: absolute;
+    z-index: 1;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    text-transform: capitalize;
+    left: 76px;
+    top: 408px;
+    size: 20px;
+    color: #ffffff !important;
+}
+
+.innerbtn {
+    position: absolute;
+    z-index: 1;
+    font-family: Georgia;
+    font-style: normal;
+    font-weight: normal;
+    line-height: 28px;
+    text-transform: inherit;
+    left: 76px;
+    top: 558px;
+    size: 20px;
+    background-color: #55b946 !important;
+}
+
+.left {
+    position: absolute;
+    width: 40%;
+    height: 384px;
+    background: #D7DDD5;
+    left: 67px;
+    top: 740px;
+    border-radius: 0px;
+    box-shadow: -14px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.right {
+    position: absolute;
+    width: 40%;
+    height: 384px;
+    background: #D7DDD5;
+    left: 750px;
+    top: 740px;
+    border-radius: 0px;
+    box-shadow: -14px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+footer {
+    position: absolute;
+    top: 1500px;
+}
+
+.footer_contact {
+    position: absolute;
+    top: 1400px;
+}
+
+.footer_updates {
+    position: absolute;
+    top: 1320px;
+}
+
+.left:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.right:before {
+    content: "";
+    display: block;
+    padding-top: 100%;
+}
+
+.option {
+    position: relative;
+    top: 500px;
+    z-index: 1;
+}
+
+.op1 {
+    position: absolute;
+    width: 40%;
+    height: 384px;
+    background-color: #D7DDD5 !important;
+    left: 67px;
+    top: 200px;
+    border-radius: 0px;
+    box-shadow: -14px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.op2 {
+    position: absolute;
+    width: 40%;
+    height: 384px;
+    background: #D7DDD5 !important;
+    top: 200px;
+    border-radius: 0px;
+    box-shadow: -14px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.colorbutton {
+    background-color: #55b946;
+}
+
+h2 {
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.subform {
+    margin: 0 auto;
+    position: relative;
+    top: 1200px;
+    width: 70%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #5ac459;
+    Box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+.subform_contact {
+    margin: 0 auto;
+    position: relative;
+    top: 400px;
+    width: 70%;
+    height: 200px;
+    border-radius: 20px;
+    background-color: #5ac459;
+    Box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+}
+
+
+/* footer code*/
+
+label {
+    color: #5ac459;
+}
+
+.center_div {
+    text-align: center;
+    margin: 0 auto;
+    width: 60%;
+    position: absolute;
+    padding: 20px;
+    background-color: white;
+    border-radius: 20px;
+    height: auto;
+    margin-top: 40px !important;
+}
+
+.footer-basic {
+    padding: 40px 0;
+    background-color: #ffffff;
+    color: #4b4c4d;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    padding: 0 10px;
+}
+
+.footer-basic ul a {
+    color: #b6947b;
+    text-decoration: none;
+    opacity: 0.8;
+}
+
+.footer-basic ul a:hover {
+    opacity: 1;
+}
+
+.footer-basic .social {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.footer-basic .social>a {
+    font-size: 24px;
+    width: 40px;
+    height: 40px;
+    line-height: 40px;
+    display: inline-block;
+    text-align: center;
+    border-radius: 50%;
+    border: 1px solid #ccc;
+    margin: 0 8px;
+    color: inherit;
+    opacity: 0.75;
+}
+
+.footer-basic .social>a:hover {
+    opacity: 0.9;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 13px;
+    color: #b6947b;
+    margin-bottom: 30px;
+}
+
+.footer-basic .logo1 {
+    margin-left: 50px;
+}
+
+
+/* Media query for different screen sizes */
+
+@media only screen and (max-width: 1148px) {
+    .youtube {
+        position: absolute;
+        width: 44.41px;
+        height: 48px;
+        left: 700px;
+        top: 14px;
+    }
+    .twitter {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 760px;
+        top: 14px;
+    }
+    .facebook {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 820px;
+        top: 14px;
+    }
+    .instagram {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 880px;
+        top: 14px;
+    }
+}
+
+@media only screen and (max-width: 925px) {
+    .youtube {
+        position: absolute;
+        width: 44.41px;
+        height: 48px;
+        left: 420px;
+        top: 14px;
+    }
+    .twitter {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 470px;
+        top: 14px;
+    }
+    .facebook {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 520px;
+        top: 14px;
+    }
+    .instagram {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 570px;
+        top: 14px;
+    }
+}
+
+@media only screen and (max-width: 576px) {
+    body {
+        overflow-x: hidden;
+    }
+    .topbar {
+        position: absolute;
+        width: 366px;
+        height: 200px;
+        left: 0px;
+        top: 0px;
+        bottom: 10px;
+    }
+    .updates {
+        position: relative;
+        margin: 0 auto;
+        width: 400px;
+        top: 500px;
+        height: auto;
+        background-color: #ebebe0;
+        margin-top: 20px;
+    }
+    .footer_updates {
+        position: absolute;
+        top: 1570px;
+    }
+    .op1 {
+        position: absolute;
+        width: 40%;
+        height: 384px;
+        background-color: #D7DDD5 !important;
+        left: 67px;
+        top: 40px;
+        width: 260px;
+        border-radius: 0px;
+        box-shadow: -14px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .op2 {
+        position: absolute;
+        width: 40%;
+        height: 384px;
+        background: #D7DDD5 !important;
+        left: 67px;
+        top: 500px;
+        width: 260px;
+        border-radius: 0px;
+        box-shadow: -14px 4px 4px rgba(0, 0, 0, 0.25);
+    }
+    .subform {
+        margin: 0 auto;
+        position: relative;
+        top: 1450px;
+        width: 70%;
+        height: 200px;
+        border-radius: 20px;
+        background-color: #5ac459;
+        Box-shadow: 30px 0px 40px rgba(0, 0, 0, 0.1), -30px 0px 40px rgba(0, 0, 0, 0.1);
+    }
+    .email_input {
+        width: 180px;
+    }
+    .center_div {
+        text-align: center;
+        margin: 0 auto;
+        width: 80%;
+        position: absolute;
+        padding: 6px;
+        background-color: white;
+        border-radius: 20px;
+        height: auto;
+        margin-top: 40px !important;
+    }
+    footer {
+        position: absolute;
+        top: 1750px;
+    }
+    .heroheader {
+        position: absolute;
+        z-index: 1;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 82px;
+        text-transform: uppercase;
+        width: auto;
+        height: 409px;
+        left: 42px;
+        top: 152px;
+        color: #fff !important;
+    }
+    spam {
+        position: absolute;
+        z-index: 1;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 28px;
+        text-transform: capitalize;
+        left: 42px;
+        top: 350px;
+        size: 20px;
+        color: #ffffff !important;
+    }
+    .innerbtn {
+        position: absolute;
+        z-index: 1;
+        font-family: Georgia;
+        font-style: normal;
+        font-weight: normal;
+        line-height: 28px;
+        text-transform: inherit;
+        left: 42px;
+        top: 471px;
+        size: 20px;
+        background-color: #55b946 !important;
+    }
+    .hpImage {
+        position: absolute;
+        width: 2300px;
+        height: 470px;
+        top: 80px;
+    }
+    .logo {
+        position: absolute;
+        width: 311.57px;
+        height: 64px;
+        left: 34px;
+        top: -7px;
+    }
+    .youtube {
+        position: absolute;
+        width: 35.41px;
+        height: 39px;
+        left: 75px;
+        top: 39px;
+    }
+    .twitter {
+        position: absolute;
+        width: 35.41px;
+        height: 39px;
+        left: 125px;
+        top: 39px;
+    }
+    .facebook {
+        position: absolute;
+        width: 35.41px;
+        height: 39px;
+        left: 175px;
+        top: 39px;
+    }
+    .instagram {
+        position: absolute;
+        width: 35.41px;
+        height: 39px;
+        left: 225px;
+        top: 39px;
+    }
+}
+
+@media only screen and (min-width: 1920px) {
+    .topbar {
+        position: absolute;
+        width: 1440px;
+        height: 200px;
+        left: 0px;
+        top: 0px;
+        bottom: 10px;
+    }
+    .youtube {
+        position: absolute;
+        width: 44.41px;
+        height: 48px;
+        left: 1670px;
+        top: 14px;
+    }
+    .twitter {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 1730px;
+        top: 14px;
+    }
+    .facebook {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 1790px;
+        top: 14px;
+    }
+    .instagram {
+        position: absolute;
+        width: 46.85px;
+        height: 48px;
+        left: 1850px;
+        top: 14px;
+    }
+}
+
+@media only screen and (min-width: 1373px) {}
+
+@media only screen and (min-width: 1920px) {}

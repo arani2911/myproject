@@ -1,0 +1,154 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="AgScouter App's Website">
+    <meta name="keywords" content="AgScouter, Agronomist, Farmers">
+    <meta name="author" content="Arvinder Kaur">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="styles.css" type="text/css">
+    <title>AgScouter App - Home</title>
+</head>
+
+<body>
+    <header>
+        <div class="alert topbar">
+            <p>
+                <img src="images/logo1.png" class="img-fluid logo" alt="AgScouter Logo">
+                <a href="https://www.youtube.com/playlist?list=PL1Wy5Mbvwx_YEbK5yaRxt_jBmzFmzxq7X"><img src="images/youtube.png" class="img-fluid youtube" alt="Youtube"></a>
+                <a href="https://twitter.com/agscouter"><img src="images/twitter.png" class="img-fluid twitter" alt="Twitter"></a>
+                <a href="https://www.facebook.com/AgScouter-App-340322417244603/"><img src="images/facebook.png" class="img-fluid facebook" alt="Facebook"></a>
+                <a href="https://www.instagram.com/agscouteragronomy/"><img src="images/instagram.png" class="img-fluid instagram" alt="Instagram"></a>
+            </p>
+        </div>
+        <nav class="navbar navbar-expand-lg navbar-light bg-transparent">
+            <div class="container-fluid ">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarText" aria-controls="navbarText" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+                <div class="collapse navbar-collapse" id="navbarText">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    </ul>
+                    <span class="navbar-text">
+                  <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link " aria-current="page" href="index.html">HOME</a>
+                    </li>
+                    <li class="nav-item dropdown">
+                      <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        FEATURES
+                      </a>
+                      <ul class="dropdown-menu bg-light" aria-labelledby="navbarDropdown">
+                        <li><a class="dropdown-item" href="farmers.html">AgScouter Farmers</a></li>
+                        <li><a class="dropdown-item" href="agronomist.html">AgScouter Agronomists</a></li>
+                      </ul>
+                    </li>
+
+                    <li class="nav-item">
+                        <a class="nav-link active" href="updates.html">UPDATES</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="testimonial.html">TESTIMONIALS</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="contact.html">CONTACT</a>
+                </li>
+                </ul>
+      </span>
+                </div>
+            </div>
+        </nav>
+        <div class="cantainer">
+            <img src="images/hp.png" class="img-fluid hpImage" alt="Youtube">
+        </div>
+        <div class="container-fluid">
+            <p class="display-1 heroheader">Simple. Fast.<br/> Efficient.</p>
+            <spam class="h5">Lorem ipsum dolor sit amet consecteturniti <br/> ipsum exercitationem autem ab <br/> consecvoluptatum!<br>ecvoluptatum</spam>
+            <button type="button" class="btn btn-success btn-lg innerbtn" data-toggle="modal" data-target="#exampleModal" data-whatever="@getbootstrap">Request a Demo/Quote</button>
+        </div>
+        <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+            <div class="modal-dialog" role="document">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h5 class="modal-title" id="exampleModalLabel">Request a Demo/Quote</h5>
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                    </div>
+                    <div class="modal-body">
+                        <form class="modalCode" action="email.php" method="post">
+                            <div class="form-group">
+                                <p>We will reachout to you within 24 hours.</p>
+                                <label for="recipient-name" class="col-form-label">Email:</label>
+                                <input type="text" name="email" class="form-control" id="recipient-name">
+                            </div>
+                        </form>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                        <button type="button" class="btn btn-success">Send Request</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <main>
+        <!---<div class="container left"></div>
+        <div class="container right"></div>-->
+        <div class="container px-4 option ">
+            <div class="row gx-5">
+                <div class="col">
+                    <div class="p-3 border text-center bg-light op1">
+                        <h2>Are you an Agronomist?</h2>
+                        <img class="bd-placeholder-img rounded-circle" src="images/Agronomist Picture.png" alt="Pictue of an Agronomist.">
+                        <p></p>
+                        <p><a class="btn btn-success colorbutton" href="agronomist.html">Click Here »</a></p>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="p-3 border text-center bg-light op2">
+                        <h2>Are you a farmer?</h2>
+                        <img class="bd-placeholder-img rounded-circle " src="images/Farmer Picture.png" alt="Picture of a Farmer.">
+                        <p></p>
+                        <p><a class="btn btn-success colorbutton" href="farmers.html">Click Here »</a></p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="jumbotron jumbotron-fluid subform">
+            <div class="container">
+                <div class="row justify-content-center">
+                    <div class="form-group col-md-4 col-md-offset-5 align-center center_div">
+                        <form action="email.php" method="post">
+                            <label class="form-label">Request a Free Demo</label>
+                            <input class="email_input" type="text" id="fname" name="fname" placeholder="Type your email here">
+                            <button class="btn btn-success colorbutton" type="submit" name="Submit Request"> Submit Request</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </main>
+    <div class="footer-basic">
+        <footer class="container-fluid">
+            <ul class="list-inline">
+                <li class="list-inline-item"><a href="index.html">Home</a></li>
+                <li class="list-inline-item"><a href="#">About</a></li>
+                <li class="list-inline-item"><a href="#">Terms</a></li>
+                <li class="list-inline-item"><a href="#">Privacy Policy</a></li><br>
+                <li class="list-inline-item">
+                    <a href="#"><img src="images/logo1.png" width="277.57" height="67"></a>
+                </li><br>
+                <li class="list-inline-item"><a href="#">© AgScouter App 2021. All rights reserved. <br />2000 HWY 35 South Nipawin, SK.<br /> Mailing Address: PO Box 3519 Nipawin, SK S0E 1E0.</a></li>
+            </ul><br><br>
+        </footer>
+    </div>
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+</body>
+
+</html>
